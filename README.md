@@ -57,7 +57,7 @@
 
 
 
-Chicago
+# Chicago
 {
     "count": 1,
     "data": [
@@ -113,7 +113,7 @@ Chicago
 }
 
 
-New York
+# New York
 
 {
     "count": 1,
@@ -165,6 +165,61 @@ New York
             "wind_cdir_full": "south-southwest",
             "wind_dir": 200,
             "wind_spd": 5.1
+        }
+    ]
+}
+
+# Alexandria,La
+{
+    "count": 1,
+    "data": [
+        {
+            "app_temp": 28.2,
+            "aqi": 30,
+            "city_name": "Alexandria",
+            "clouds": 0,
+            "country_code": "US",
+            "datetime": "2025-11-07:21",
+            "dewpt": 14.9,
+            "dhi": 65,
+            "dni": 582,
+            "elev_angle": 14,
+            "ghi": 198,
+            "gust": 4.5,
+            "h_angle": 45,
+            "lat": 31.31129,
+            "lon": -92.44514,
+            "ob_time": "2025-11-07 22:07",
+            "pod": "d",
+            "precip": 0,
+            "pres": 1005,
+            "rh": 45,
+            "slp": 1008,
+            "snow": 0,
+            "solar_rad": 198,
+            "sources": [
+                "rtma",
+                "radar",
+                "satellite"
+            ],
+            "state_code": "LA",
+            "station": "KAEX",
+            "sunrise": "12:30",
+            "sunset": "23:15",
+            "temp": 28.1,
+            "timezone": "America/Chicago",
+            "ts": 1762553237,
+            "uv": 2,
+            "vis": 16,
+            "weather": {
+                "description": "Clear sky",
+                "icon": "c01d",
+                "code": 800
+            },
+            "wind_cdir": "SW",
+            "wind_cdir_full": "southwest",
+            "wind_dir": 226,
+            "wind_spd": 3.9
         }
     ]
 }
